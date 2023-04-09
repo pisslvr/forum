@@ -1,0 +1,179 @@
+body {
+    background-color: #444;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  #box {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+    align-items: center;
+  }
+  #post-box {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    float: left;
+    margin-left: 40px;
+    width: fit-content;
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }  
+  input[type="submit"] {
+    background-color: #666;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+  }
+  
+  #posts {
+    float: left;
+    width: calc(100% - 420px);
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-author {
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .post-date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .post-body {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  .post-edit {
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: right;
+    margin: 5px;
+  }
+  h2{
+    text-align: center;
+    text-transform: capitalize;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  h1{
+    width: fit-content;
+  }
+  p{
+    float: left;
+  }
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    justify-content: left;
+  }
+  
+  .user {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    text-align: center;
+  }
+  .info {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;   
+    font-weight: bold;
+    text-align: center;
+  }
+  .login {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .password {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+  }
+  #logout{
+    clear: both;
+    float: right;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.post {
+    flex: 2;
+    margin-left: 20px;
+}
+form{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+textarea{
+    background-color: #666;
+    color: white;
+}
+textarea {
+    width: 100%;
+    max-width: 1500px; /* set a maximum width */
+    height: 335px; /* set an initial height */
+    resize: vertical; /* allow vertical resizing */
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* adjust the size for smaller screens */
+    textarea {
+      height: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* further adjust the size for even smaller screens */
+    textarea {
+      height: 60px;
+    }
+  }
+  
